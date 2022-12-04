@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+}
+.content button {
+    width: 100px;
+    height: 30px;
+    background-color: #fff;
+    margin: 10px 0;
+    border: none;
+    text-align: left;
+    border-radius: 35px;
+
+}
+.paad, a{
+   padding-left: 35px; 
+}
+.fresh_prd{
+    
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(226, 252, 231);
+}
+.how_we{
+    margin-top: 50px !important;
+}
+.how_we h2{
+    font-size: 18px;
+    color: rgb(17, 74, 17);
+
+}
+.how_we h4{
+    color: rgb(17, 74, 17);
+
+}
+
+.paading{
+    padding-top: 15px;
+}
+#tweet{
+    background-color: rgb(106, 161, 232); 
+}
+button:hover{
+    background-color: rgb(151, 151, 232);
+}
+.tweet_container{
+    border: 1px solid rgb(106, 161, 232);
+}
+
+img{
+    width: 100%;
+}
+.img-container{
+    position: relative;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+.content h1{
+    font-size: 3.5rem;
+    color: #fff;
+}
+.content p{
+    color: #fff;
+
+    font-size: 2rem;
+}
+.form_prouct h1{
+    text-align: center;
+}
+.form_prouct {
+    margin-top: 30px;
+}
+.testii{
+    margin-top: 60px;
+
+}
+.testii h6{
+    text-align: left;
+    color: rgb(17, 74, 17);
+}
+.testi{
+    margin-top: 30px;
+    
+}
+.testi h6, h2{
+    color: rgb(17, 74, 17);
+
+}
+.testi h5{
+    line-height: 35px;
+
+}
+.delimg img{
+    width: 100%;
+    padding: 15px;
+}
+.servi{
+    padding-top: 5px;
+}

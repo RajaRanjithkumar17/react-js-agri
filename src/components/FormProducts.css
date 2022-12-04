@@ -1,0 +1,26 @@
+.products{
+    margin-bottom: 20px;
+}
+.txtalign{
+    text-align: center;
+}
+.txtalign button{
+    width: 80px;
+
+}
+.form_produucts,.form_produucts h1{
+    text-align: center;
+
+}
+.form_produucts{
+    margin-top: 50px;
+}
+.products{
+    margin-top: 25px !important;
+}
+.form_prouct p{
+    text-align: center;
+}
+.btns{
+    margin-left: 35px !important;
+}

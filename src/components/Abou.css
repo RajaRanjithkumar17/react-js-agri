@@ -1,0 +1,21 @@
+.abt_us{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+}
+.abt_img{
+    width: 40%;
+    height: auto;
+    padding: 10px 10px 10px 0;
+}
+.abt_img img {
+    width: 100%;
+}
+.abt_content{
+    width: 60%;
+    height: auto;
+    padding: 10px;
+
+}
+/*   */
