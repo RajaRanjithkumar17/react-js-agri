@@ -22,6 +22,7 @@ import Offers from './Offers.js';
 import Faq from './Faq.js';
 import { useNavigate } from 'react-router-dom';
 import Foot from './Foot.js';
+import { stateContext } from '../context/context.js';
 
 const drawerWidth = 240;
 const navItems = ['Home', 'About','Form Products','Dairy Products', 'Contact'];
@@ -29,6 +30,7 @@ const navItems = ['Home', 'About','Form Products','Dairy Products', 'Contact'];
 
 
 const Home = (props) => {
+  const { state, dispatch } = React.useContext(stateContext);
   const navigate = useNavigate()
   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
@@ -39,7 +41,10 @@ const Home = (props) => {
 
   const handellogin = ()=>{
     navigate("loginform")
+    console.log(state);
   }
+
+ 
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
@@ -84,8 +89,8 @@ const Home = (props) => {
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {navItems.map((item) => (
-              <Button key={item} sx={{ color: '#fff' , width:"auto"}}>
-                {item}
+              <Button key={item} sx={{ color: '#fff' , width:"auto"}} >
+               {item}
               </Button>
             ))}
             <Button onClick={handellogin} sx={{ color: '#fff' , width:"auto"}}> Login</Button>
@@ -116,7 +121,7 @@ const Home = (props) => {
 
     </Box>
     <Banner/>
-    {/* <About/> */}
+    <About/>
     <FormProducts/>
     <Offers/>
     <Foot/>

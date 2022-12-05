@@ -3,22 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+.img-container img{
+    filter: opacity(0.8);
+}
 html {
     font-size: 16px;
 }
-.content button {
-    width: 100px;
-    height: 30px;
-    background-color: #fff;
-    margin: 10px 0;
-    border: none;
-    text-align: left;
-    border-radius: 35px;
 
-}
 .paad, a{
    padding-left: 35px; 
 }
+
 .fresh_prd{
     
     margin: 10px;
@@ -65,10 +60,10 @@ img{
 }
 .content h1{
     font-size: 3.5rem;
-    color: #fff;
+    color: rgb(17, 74, 17) ;
 }
 .content p{
-    color: #fff;
+    color: rgb(17, 74, 17) ;
 
     font-size: 2rem;
 }

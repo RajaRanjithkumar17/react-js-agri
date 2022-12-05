@@ -52,11 +52,12 @@ export default function SignInSide() {
       var checkmail = email.indexOf(userName)
       var checkpwd = password.indexOf(userPwds)
       console.log(email,password,detail,checkmail,checkpwd);
-      if(userName.length===0 && userPwds.length===0){
+      if(userName.length!==0 && userPwds.length!==0){
       if(checkmail===checkpwd){
 
           const tem ={
-              islogin: false
+              islogin: false,
+              selected:false
             }
             dispatch({ type: "islogon", payload:[...state.tasks, tem] });
 

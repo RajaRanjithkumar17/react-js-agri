@@ -1,0 +1,13 @@
+.footer h2{
+    font-size: 18px;
+}
+.footer{
+    margin-top: 30px;
+    padding-top: 30px;
+    height: 500px;
+    background-color: rgb(31, 118, 59);
+}
+
+.footer li::marker , h1{
+    color: rgb(17, 74, 17);
+}

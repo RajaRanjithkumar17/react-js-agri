@@ -22,9 +22,9 @@ function Routecomponents(){
         
       <Route path='/' element={<Home />}></Route>
       <Route path='*' element={<Navigate to ="/" />}></Route>
+      <Route path='order' element={<Order />}></Route>
  
       </Routes>:<Routes>
-      <Route path='order' element={<Order />}></Route>
       <Route path='/loginform' element={<Loginform />}></Route>
       <Route path='/' element={<Home />}></Route>
       <Route path='*' element={<Navigate to ="/" />}></Route>
